@@ -159,7 +159,7 @@
                                 if (child.id === id) {
 		                            child.hidden = !value;
 		                            return false;
-		                        };
+		                        }
 
                                 if (child.pages) {
                                     child.pages.every(function (page) {
@@ -228,7 +228,7 @@
                             $scope.toggle($scope.section);
                             $state.go(_e.state);
                         }
-                    };
+                    }
                 }
             });
         }
@@ -434,7 +434,7 @@
             '       <span flex></span>\n' +
             '       <span aria-hidden="true" class="md-toggle-icon"\n' +
             '           ng-class="{\'toggled\' : isOpen(section)}">\n' +
-            '           <md-icon md-svg-src="md-toggle-arrow"></md-icon>\n' +
+            '           <md-icon>md-toggle-arrow</md-icon>\n' +
             '       </span>\n' +
             '   </div>\n' +
             '   <span class="md-visually-hidden">\n' +
