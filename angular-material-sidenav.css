@@ -76,7 +76,7 @@
     margin: 0;
     padding: 8px 16px 0;
     text-align: left;
-    width: 100%;
+    /*width: 100%;*/
 }
 
 .menu-toggle-list {

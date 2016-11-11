@@ -434,7 +434,7 @@
             '       <span flex></span>\n' +
             '       <span aria-hidden="true" class="md-toggle-icon"\n' +
             '           ng-class="{\'toggled\' : isOpen(section)}">\n' +
-            '           <md-icon>md-toggle-arrow</md-icon>\n' +
+            '           <md-icon>keyboard_arrow_down</md-icon>\n' +
             '       </span>\n' +
             '   </div>\n' +
             '   <span class="md-visually-hidden">\n' +
