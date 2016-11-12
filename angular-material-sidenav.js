@@ -416,7 +416,7 @@
             '   class="md-raised md-primary"' +
             '   ui-sref="{{section.state}}"\n' +
             '   ng-click="focusSection(section)">\n' +
-            '   <span ng-if="section.icon" class="{{section.icon}}">&nbsp;&nbsp;</span>{{section.name}}\n' +
+            '   <md-icon ng-if="section.icon">{{ section.icon }}</md-icon>&nbsp;&nbsp;{{section.name}}\n' +
             '   <span class="md-visually-hidden"\n' +
             '       ng-if="isSelected(section.state)">\n' +
             '       current page\n' +
@@ -434,7 +434,7 @@
             '       <span flex></span>\n' +
             '       <span aria-hidden="true" class="md-toggle-icon"\n' +
             '           ng-class="{\'toggled\' : isOpen(section)}">\n' +
-            '           <md-icon>keyboard_arrow_down</md-icon>\n' +
+            '           <md-icon style="height: 24px;">keyboard_arrow_down</md-icon>\n' +
             '       </span>\n' +
             '   </div>\n' +
             '   <span class="md-visually-hidden">\n' +
