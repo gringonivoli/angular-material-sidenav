@@ -412,7 +412,6 @@
     .run(['$templateCache', function($templateCache) {
         $templateCache.put('views/ss/menu-link.tmpl.html',
             '<md-button\n' +
-            '   ss-style-color="{\'background-color\': (isSelected(section.state) || $state.includes(section.state)) ? \'primary.800\': \'primary.default\'}"' +
             '   class="md-raised md-primary"' +
             '   ui-sref="{{section.state}}"\n' +
             '   ng-click="focusSection(section)">\n' +
